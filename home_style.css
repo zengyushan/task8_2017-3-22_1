@@ -40,28 +40,49 @@ html, body {
 .home-con-row2 {
     background-color: #29b078;
 }
-
-.home-row2-col-div div {
+.home-nav-word {
     border: 2px solid #29b078;
-    float: right;
-    width: .78rem;
+    line-height: .9rem;
     height: .9rem;
-
     display: flex;
-    align-items: center;
     justify-content: center;
 }
-
-.home-row2-col-div div:hover {
+.home-nav-word:hover {
     border-bottom: 3px solid #ffffff;
 }
 
-.home-row2-col-div div a {
-    float: right;
+.home-nav-word a {
+    display: block;
     font-size: .16rem;
     color: #ffffff;
-
 }
+.home-nav-homepage{
+    border-bottom: 3px solid #ffffff;
+}
+/*.home-nav-homepage{*/
+    /*border-bottom: 2px solid #ffffff;*/
+/*}*/
+/*.home-row2-col-div div {*/
+    /*border: 2px solid #29b078;*/
+    /*float: right;*/
+    /*width: .78rem;*/
+    /*height: .9rem;*/
+
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+/*}*/
+
+/*.home-row2-col-div div:hover {*/
+    /*border-bottom: 3px solid #ffffff;*/
+/*}*/
+
+/*.home-row2-col-div div a {*/
+    /*float: right;*/
+    /*font-size: .16rem;*/
+    /*color: #ffffff;*/
+
+/*}*/
 
 .home-carousel {
     /*border: solid;*/

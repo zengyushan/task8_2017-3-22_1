@@ -68,6 +68,9 @@ html, body {
     font-size: .16rem;
     color: #ffffff;
 }
+.vocation-nav-vocation{
+    border-bottom: 3px solid #ffffff;
+}
 .vocation-which-page{
     font-size: .16rem;
     height: .7rem;

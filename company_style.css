@@ -68,7 +68,9 @@ html, body {
     font-size: .16rem;
     color: #ffffff;
 }
-
+.company-nav-recommendjob{
+    border-bottom: 3px solid #ffffff;
+}
 .company-big-row {
     background-color: #f1a750;
 }
