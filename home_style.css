@@ -1,0 +1,548 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 625%;
+    background-color: #fafafa;
+}
+
+.home-padding {
+    /*border: solid;*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.home-margin {
+    /*border: solid;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.home-row-col-qw {
+    margin-right: .2rem;
+}
+
+.home-col1-center span {
+    /*border: solid;*/
+    color: #29b078;
+    float: left;
+    font-size: .14rem;
+    height: .3rem;
+    line-height: .3rem;
+}
+
+.home-col1-center img {
+    /*border: solid;*/
+    float: right;
+    font-size: .14rem;
+}
+
+.home-con-row2 {
+    background-color: #29b078;
+}
+
+.home-row2-col-div div {
+    border: 2px solid #29b078;
+    float: right;
+    width: .78rem;
+    height: .9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-row2-col-div div:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.home-row2-col-div div a {
+    float: right;
+    font-size: .16rem;
+    color: #ffffff;
+
+}
+
+.home-carousel {
+    /*border: solid;*/
+    line-height: 1rem;
+}
+
+.home-carousel-indicators-ol {
+    display: flex;
+    justify-content: center;
+}
+
+.home-carousel-indicators-ol li {
+    display: block;
+    float: left;
+}
+
+.home-carousel-caption {
+    height: 2.7rem;
+    font-size: .3rem;
+    text-align: right;
+}
+
+.home-carousel-caption-div1 {
+    font-size: .4rem;
+}
+
+.home-carousel-caption-div2 {
+    font-size: .5rem;
+}
+
+.home-con2 {
+    margin-top: 1rem;
+}
+
+.home-subcon2-row1 div {
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-subcon2-row1-col1-div1 {
+    background: url(images/home_page_rocket.png) no-repeat;
+    background-size: .4rem .6rem;
+    width: .45rem;
+    font-size: .18rem;
+
+    height: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.home-subcon2-row1-col-div-three {
+    font-size: .138rem;
+    color: #999999;
+    height: .8rem;
+}
+
+.home-subcon2-row1-col-div-three div {
+    margin-top: .05rem;
+}
+
+.home-subcon2-row1-col2-div1 {
+    background: url(images/home_page_archive.png) no-repeat;
+    background-size: .5rem .4rem;
+    background-position-y: .15rem;
+    width: .6rem;
+    font-size: .18rem;
+    height: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.home-subcon2-row1-col3-div1 {
+    /*border: solid;*/
+    background: url(images/home_page_connection.png) no-repeat;
+    background-size: .5rem .5rem;
+    background-position-y: .06rem;
+    width: .55rem;
+    font-size: .18rem;
+    height: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+
+.home-subcon2-row1-col3 {
+    border-right: 2px dashed #dedede;
+}
+
+.home-subcon2-row1-col4-div {
+    margin-top: .55rem;
+}
+
+.home-subcon2-row1-col4-class-num {
+    /*border: solid;*/
+    font-size: .16rem;
+    background: url(images/home_page_person_num_icon.png) no-repeat;
+    background-position: left;
+}
+
+.home-subcon2-row1-col4-class-num div {
+    margin-left: .25rem;
+    color: #29b078;
+}
+
+.home-subcon2-row1-col4-class-num-hint {
+    /*border: solid;*/
+    font-size: .16rem;
+    color: #999999;
+    margin-top: .05rem;
+}
+
+.home-subcon2-row1-col4-job-num {
+    /*border: solid;*/
+    font-size: .16rem;
+    color: #29b078;
+    background: url(images/home_page_person_num_icon.png) no-repeat;
+    background-position: left;
+    margin-top: .15rem;
+}
+
+.home-subcon2-row1-col4-job-num div {
+    margin-left: .25rem;
+}
+
+.home-subcon2-row1-col4-job-num-hint {
+    /*border: solid;*/
+    font-size: .16rem;
+    color: #999999;
+    margin-top: .05rem;
+}
+
+.home-how-to-learn-word {
+    /*border: solid;*/
+    margin-top: .5rem;
+    margin-bottom: .4rem;
+    font-size: .18rem;
+    text-align: center;
+}
+
+.home-con2-row2 {
+    margin-bottom: .3rem;
+}
+
+.home-con2-row2-col2-subcon-subrow {
+
+}
+
+.home-con2-row2-col2-subcon-subrow div {
+    font-size: .1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-arrow {
+    background: url(images/home_page_howtolearn_arrow.png) no-repeat;
+    background-size: .15rem .15rem;
+    width: .2rem;
+    height: .17rem;
+    margin-right: .1rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon1 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 0;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-word {
+    white-space: normal; /* 自动换行 */
+    width: 1.2rem;
+    float: right;
+    color: #a1a1a1;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon2 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 14%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon3 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 29%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon4 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 43%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon5 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 57%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon6 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 72%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon7 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 86%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-con2-row2-col2-subcon-subrow-subcol-div-num-icon8 {
+    background: url(images/home_how_to_learn_num.png) no-repeat;
+    background-size: 100% 800%;
+    background-position: 0 100%;
+    width: .45rem;
+    height: .45rem;
+}
+
+.home-good-stu-title {
+    font-size: .18rem;
+    margin-top: .6rem;
+    margin-bottom: .3rem;
+    text-align: center;
+}
+
+.home-con2-row3-subrow-content div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-include-advisor {
+    border: 1px solid #eeeded;
+    padding-left: .2rem;
+    padding-right: .2rem;
+    padding-bottom: .2rem;
+    background-color: #ffffff;
+}
+
+.home-con2-row3-subrow-content-subcol-name {
+    /*border: solid;*/
+    font-size: .16rem;
+    margin-top: .15rem;
+    /*word-wrap:break-word;*/
+}
+
+.home-con2-row3-subrow-content-subcol-name1 {
+    background: url(images/home_page_student1.png) no-repeat;
+    background-position: center top;
+    width: 1.23rem;
+    height: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.home-con2-row3-subrow-content-subcol-name2 {
+    background: url(images/home_page_student2.png) no-repeat;
+    background-position: center top;
+    width: 1.23rem;
+    height: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.home-con2-row3-subrow-content-subcol-name3 {
+    background: url(images/home_page_student3.png) no-repeat;
+    background-position: center top;
+    width: 1.23rem;
+    height: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.home-con2-row3-subrow-content-subcol-name4 {
+    background: url(images/home_page_student4.png) no-repeat;
+    background-position: center top;
+    width: 1.23rem;
+    height: 1.7rem;
+    line-height: 2.8rem;
+}
+
+.home-con2-row3-subrow-content-subcol-intro {
+    font-size: .14rem;
+    color: #b0b0b0;
+}
+
+.home-all-circle {
+    /*border: solid;*/
+    list-style: none;
+    /* display: inline-block; */
+    margin-top: .1rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    /*text-align: center;*/
+    height: .22rem;
+    width: .8rem;
+
+}
+
+.home-circle {
+    border: 1px solid #e9e8e9;
+    border-radius: 50%;
+    width: .14rem;
+    height: .14rem;
+}
+
+.home-all-circle li {
+    float: left;
+    margin-right: .04rem;
+}
+
+.home-circle-left {
+    background-color: #29b078;
+}
+
+.home-circle-right {
+    background-color: #ffffff;
+}
+
+.home-company-title {
+    /*border: solid;*/
+    margin-top: 1rem;
+    margin-bottom: .6rem;
+    font-size: .18rem;
+    text-align: center;
+
+}
+
+.home-company-row {
+    margin-bottom: 1rem;
+}
+
+.home-company-lr {
+    width: 16.65%;
+}
+
+.home-company-subcon {
+    width: 100%;
+}
+
+.home-company-subrow {
+    background-color: #ffffff;
+}
+
+.home-company {
+    width: 20%;
+}
+
+.home-company:hover {
+    -webkit-box-shadow: 0 0 15px #f1f1f1;
+    -moz-box-shadow: 0 0 15px #f1f1f1;
+    box-shadow: 0 0 15px #f1f1f1;
+}
+
+.home-company img {
+    width: 100%;
+}
+
+.home-company1 {
+    background: url(images/home_page_alibaba.png) no-repeat;
+    background-position: center;
+    background-size: 1.5rem 1.4rem;
+    height: 1.3rem;
+}
+
+.home-company2 {
+    background: url(images/home_page_jinshan.png) no-repeat;
+    background-position: center;
+    background-size: .5rem .5rem;
+    height: 1.3rem;
+}
+
+.home-company3 {
+    background: url(images/home_page_huanxin.png) no-repeat;
+    background-position: center;
+    background-size: 1.3rem 1.1rem;
+    height: 1.3rem;
+}
+
+.home-company4 {
+    background: url(images/home_page_ronglian.png) no-repeat;
+    background-position: center;
+    height: 1.3rem;
+}
+
+.home-company5 {
+    background: url(images/home_page_qiniu.png) no-repeat;
+    background-position: center;
+    background-size: .9rem .9rem;
+    height: 1.3rem;
+}
+
+.home-other-links {
+    /*border:solid;*/
+    background-color: #ffffff;
+    font-size: .18rem;
+    text-align: center;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.home-other-link-div {
+    width: 10%;
+}
+
+.home-other-link {
+    /*border: solid;*/
+    display: inline-block;
+    float: left;
+    font-size: .12rem;
+    color: #999999;
+
+}
+
+.home-other-link-row {
+    /*border: solid;*/
+    background-color: #ffffff;
+}
+
+.home-other-link-row2 {
+    padding-bottom: .2rem;
+}
+
+.home-other-page-row {
+    /*border:solid;*/
+    padding-top: .2rem;
+    background-color: #29b078;
+}
+
+.home-other-page-title {
+    /*border:solid;*/
+    font-size: .16rem;
+}
+
+.home-weixin-word {
+    float: right;
+    margin-right: .2rem;
+    background: url(images/home_page_QRCode.png) no-repeat;
+    background-size: 1rem 1rem;
+    background-position: bottom;
+    width: 1rem;
+    height: 1.25rem;
+}
+
+.home-other-page-link {
+    /*border:solid;*/
+    font-size: .14rem;
+}
+
+.home-other-page-link-left {
+    margin-top: .5rem;
+}
+
+.home-other-page-link-center {
+    margin-top: .15rem;
+}
+
+.home-other-color {
+    color: #ffffff;
+}
+
+.home-other-color a {
+    color: #ffffff;
+}
+
+.home-record {
+    font-size: .12rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #29b078;
+}

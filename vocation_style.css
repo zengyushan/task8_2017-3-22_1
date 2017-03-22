@@ -1,0 +1,355 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 625%;
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.vocation-margin {
+    /*border: solid;*/
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.vocation-padding {
+    /*border: solid;*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.vocation-custom-icon {
+    /*border: solid;*/
+    margin-right: .2rem;
+}
+
+.vocation-custom-phone span {
+    /*border: solid;*/
+    color: #29b078;
+    float: left;
+    font-size: .14rem;
+    height: .3rem;
+    line-height: .3rem;
+}
+
+.vocation-custom-phone img {
+    float: right;
+    font-size: .14rem;
+}
+
+.vocation-nav-row {
+    background-color: #29b078;
+}
+
+.vocation-logo-div {
+    height: .9rem;
+    display: flex;
+    align-items: center;
+}
+
+.vocation-logo-div img {
+    display: block;
+}
+
+.vocation-nav-word {
+    border: 2px solid #29b078;
+    line-height: .9rem;
+    height: .9rem;
+    display: flex;
+    justify-content: center;
+}
+
+.vocation-nav-word:hover {
+    border-bottom: 3px solid #ffffff;
+}
+
+.vocation-nav-word a {
+    display: block;
+    font-size: .16rem;
+    color: #ffffff;
+}
+.vocation-which-page{
+    font-size: .16rem;
+    height: .7rem;
+    line-height: .7rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.vocation-which-page a{
+    font-size: .16rem;
+    height: .7rem;
+    line-height: .7rem;
+    color: #333333;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-which-page span a{
+    /*border: solid;*/
+    color: #29b078;
+}
+
+.vocation-direction-col-center {
+    height: .5rem;
+    line-height: .5rem;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-direction-div {
+    font-size: .14rem;
+}
+
+.vocation-direction-div span {
+    /*float: left;*/
+    margin-right: .1rem;
+}
+
+.vocation-direction-div a {
+    color: #333333;
+}
+
+.vocation-direction {
+    color: #a1a1a1;
+}
+
+.vocation-all {
+    /*border: solid;*/
+    color: #ffffff;
+    background-color: #29b078;
+}
+
+.vocation-front-end-col {
+    height: .7rem;
+    line-height: .7rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.vocation-front-end-title {
+    display: block;
+    font-size: .16rem;
+}
+
+.vocation-list {
+    margin-top: .5rem;
+}
+.vocation-every-row{
+
+}
+.vocation-every {
+    position: relative;
+    border: 1px solid #eeeded;
+    width: 32.2%;
+    background-color: #ffffff;
+    margin-right: 0.13rem;
+
+    border-radius: 3px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+
+.vocation-every:hover .vocation-hover-bg{
+    position: absolute;
+    visibility: visible;
+    color: #ffffff;
+    background: url(images/vocation_hover_bg.png);
+    background-size: 1.5rem 2rem;
+    /*!*opacity: 0.5;*!*/
+    z-index: 99999999;
+    width: 3rem;
+    height: 3.5rem;
+    /*background-color: #000000;*/
+    opacity: .8;
+}
+.vocation-hover-bg{
+    position: absolute;
+    visibility: hidden;
+}
+.vocation-hover-bg-title{
+    font-size: .13rem;
+    width: .8rem;
+    margin-top: .6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vocation-hover-bg-content{
+    font-size: .13rem;
+    width: 2.4rem;
+    margin-top: .3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vocation-every-right {
+    border: 1px solid #eeeded;
+    width: 32.4%;
+    background-color: #ffffff;
+
+    border-radius: 3px; /* 所有角都使用半径为5px的圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 3px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 3px; /* Webkit浏览器的私有属性 */
+}
+.vocation-every-right:hover .vocation-hover-bg{
+    position: absolute;
+    visibility: visible;
+    color: #ffffff;
+    background: url(images/vocation_hover_bg.png);
+    background-size: 1.5rem 2rem;
+    /*!*opacity: 0.5;*!*/
+    z-index: 99999999;
+    width: 3rem;
+    height: 3.5rem;
+    /*background-color: #000000;*/
+    opacity: .8;
+}
+.vocation-every-div1 img {
+    float: left;
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    margin-left: .07rem;
+    margin-top: .1rem;
+}
+
+.vocation-every-name {
+    display: block;
+    width: 2.85rem;
+    font-size: .14rem;
+    padding-top: .15rem;
+    padding-left: 1.15rem;
+}
+
+.vocation-every-intro {
+    display: block;
+    width: 2.6rem;
+    font-size: .11rem;
+    padding-top: .07rem;
+    padding-left: 1.15rem;
+    margin-bottom: .2rem;
+}
+
+.vocation-four-word-height {
+    height: 0.3rem;
+    line-height: .3rem;
+    font-size: .1rem;
+    border-bottom: 1px solid #edf1f2;
+    padding-left: .06rem;
+}
+
+.vocation-sill {
+    background: url(images/vocation_star.png) .35rem no-repeat;
+    background-size: .13rem .13rem;
+    border-top: 1px solid #edf1f2;
+    border-right: 1px solid #edf1f2;
+}
+
+.vocation-difficulty {
+    background: url(images/vocation_star.png) .55rem no-repeat,
+    url(images/vocation_star.png) .75rem no-repeat;
+    background-size: .13rem .13rem;
+    border-top: 1px solid #edf1f2;
+}
+
+.vocation-growth-cycle {
+    font-size: .1rem;
+    /*padding-left: .02rem;*/
+    border-right: 1px solid #edf1f2;
+}
+
+.vocation-growth-cycle span {
+    color: #f01400;
+}
+
+.vocation-degree {
+    font-size: .1rem;
+    /*padding-left: .02rem;*/
+}
+
+.vocation-degree span {
+    color: #f01400;
+}
+
+.vocation-salary-title {
+    font-size: .1rem;
+    height: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-salary {
+    font-size: .1rem;
+    height: .3rem;
+    line-height: .3rem;
+    border-left: 1px solid #edf1f2;
+    border-bottom: 1px solid #edf1f2;
+    padding-left: .08rem;
+}
+
+.vocation-salary span {
+    float: right;
+    margin-right: .1rem;
+}
+
+.vocation-stu-num {
+    font-size: .11rem;
+    height: .3rem;
+    line-height: .3rem;
+    padding-left: .08rem;
+    border-bottom: 1px solid #edf1f2;
+}
+
+.vocation-stu-num span {
+    height: .25rem;
+    line-height: .25rem;
+    color: #f01400;
+}
+
+.vocation-base-learn {
+    /* border: solid; */
+    height: .3rem;
+    line-height: .3rem;
+    font-size: .084rem;
+    padding-left: .08rem;
+    color: #a9a9a9;
+}
+.vocation-last-space{
+    height: 1.8rem;
+}
+.vocation-other-page-row {
+    /*border:solid;*/
+    padding-top: .2rem;
+    background-color: #29b078;
+}
+.vocation-other-color {
+    color: #ffffff;
+}
+.vocation-other-color a {
+    color: #ffffff;
+}
+.vocation-other-page-title {
+    /*border:solid;*/
+    font-size: .16rem;
+}
+.vocation-other-page-link {
+    /*border:solid;*/
+    font-size: .14rem;
+}
+.vocation-other-page-link-left {
+    margin-top: .5rem;
+}
+.vocation-other-page-link-center {
+    margin-top: .15rem;
+}
+.vocation-weixin-word {
+    float: right;
+    margin-right: .2rem;
+    background: url(images/home_page_QRCode.png) no-repeat;
+    background-size: 1rem 1rem;
+    background-position: bottom;
+    width: 1rem;
+    height: 1.25rem;
+}
+.vocation-record {
+    font-size: .12rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #29b078;
+}
