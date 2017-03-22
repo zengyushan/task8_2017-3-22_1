@@ -142,7 +142,7 @@ html, body {
 
 .company-circle {
     vertical-align: middle;
-    margin-left: 0.71rem;
+    margin-left: 0.6rem;
 }
 
 .company-every {
@@ -156,7 +156,7 @@ html, body {
 
 .company-intro-content {
     /*border: solid;*/
-    width: 6.8rem;
+    width: 6.1rem;
     height: 10.4rem;
     background-color: #ffffff;
 
@@ -182,7 +182,7 @@ html, body {
 
 .company-tudou-simple-word {
     font-size: .14rem;
-    width: 6.6rem;
+    width: 5.6rem;
     padding-top: .2rem;
     color: #999999;
 }
@@ -191,8 +191,8 @@ html, body {
     /*border: solid;*/
     font-size: .14rem;
     padding-top: 0.4rem;
-    margin-left: .2rem;
-    width: 6.41rem;
+    padding-left: 0.4rem;
+    padding-right: .4rem;
     line-height: 0.26rem;
     color: #999999;
 }

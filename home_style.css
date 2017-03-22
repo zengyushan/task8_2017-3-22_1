@@ -478,6 +478,7 @@ html, body {
 .home-company4 {
     background: url(images/home_page_ronglian.png) no-repeat;
     background-position: center;
+    background-size: 1.6rem 1.7rem;
     height: 1.3rem;
 }
 
